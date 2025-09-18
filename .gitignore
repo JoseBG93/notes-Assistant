@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+debug.log
+aplicacion.log
+errores.log
+app.log
+sistema_completo.log
+app_rotativo.log*
+app_diario.log*
+
+# Data files (keep structure, ignore content)
+backend/src/data/*.json
+!backend/src/data/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+notesProject_old_backup.py.bak
+*.backup
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.cache/
+
+# Documentation builds
+docs/_build/
+
+# Future web assets
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Future deployment
+deployment/.env
+deployment/secrets/

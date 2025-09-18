@@ -1,0 +1,9 @@
+# This file ensures the data directory is tracked by git
+# while allowing the actual JSON data files to be ignored
+# 
+# The data directory structure:
+# - users.json (user data)
+# - notes.json (notes data)  
+# - counters.json (ID counters)
+#
+# These files are created automatically by the application

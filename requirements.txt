@@ -1,0 +1,61 @@
+# ========================================
+# NOTES ASSISTANT - PROJECT DEPENDENCIES
+# ========================================
+# Updated: September 18, 2025
+# Python Version: 3.7+
+# Project Type: Console-based CRUD application with Rich UI
+
+# ===== CORE DEPENDENCIES (Currently Used) =====
+python-dateutil==2.8.2     # Date and time manipulation for note timestamps
+colorama==0.4.6             # Cross-platform colored terminal output
+tabulate==0.9.0             # Table formatting for data display
+
+# ===== ENHANCED CLI/UX (Currently Implemented) =====
+rich==13.7.0                # Advanced terminal formatting, progress bars, panels
+click==8.1.7                # Professional CLI framework for commands
+prompt-toolkit==3.0.36      # Interactive CLI with autocomplete and history
+alive-progress==3.1.5       # Beautiful progress bars for operations
+pyfiglet==1.0.2             # ASCII art text for application headers
+questionary==2.0.1          # Interactive prompts and selection menus
+
+# ===== EDUCATIONAL MODULES (Available in project) =====
+# Note: These are covered in python_external_modules/ but not required for core app
+# requests==2.31.0          # HTTP client for API integration
+# pandas==2.1.4             # Data analysis and manipulation
+# pytest==7.4.3             # Testing framework
+# flask==3.0.0              # Web framework for future web interface
+# sqlalchemy==2.0.23        # ORM for database integration
+# pillow==10.1.0            # Image processing
+# beautifulsoup4==4.12.2    # HTML/XML parsing for web scraping
+# numpy==1.25.2             # Scientific computing
+# matplotlib==3.8.2         # Data visualization
+# scikit-learn==1.3.0       # Machine learning
+
+# ===== FUTURE EXPANSION LEVELS =====
+
+# LEVEL 2: Data & Validation (When adding API features)
+# pydantic==2.5.2           # Data validation with type hints
+# jsonschema==4.20.0        # JSON schema validation
+
+# LEVEL 3: Web Interface (When building web version)
+# fastapi==0.104.1          # Modern async web framework
+# uvicorn==0.24.0           # ASGI server for FastAPI
+# jinja2==3.1.2             # Template engine for web pages
+# flask==3.0.0              # Alternative web framework
+
+# LEVEL 4: Database (When scaling beyond JSON)
+# sqlalchemy==2.0.23        # ORM for relational databases
+# alembic==1.12.1           # Database migrations
+# psycopg2-binary==2.9.9    # PostgreSQL adapter
+
+# LEVEL 5: Testing & Quality (When adding comprehensive testing)
+# pytest==7.4.3             # Testing framework
+# pytest-cov==4.1.0         # Coverage reporting
+# black==23.11.0            # Code formatting
+# flake8==6.1.0             # Linting
+# mypy==1.7.1               # Type checking
+
+# ===== INSTALLATION NOTES =====
+# Current setup: pip install -r requirements.txt
+# For educational modules: pip install -r python_external_modules/requirements_external.txt
+# For development: Create virtual environment first

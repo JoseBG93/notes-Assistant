@@ -14,14 +14,12 @@ Esta carpeta contiene **ejemplos prácticos y explicaciones detalladas** de los 
 ```
 python_native_modules/
 ├── 📄 README.md                 # Esta guía
-├── 🐍 01_sys_module.py          # Módulo sys - Información del sistema
-├── 🐍 02_os_module.py           # Módulo os - Sistema operativo
-├── 🐍 03_traceback_module.py    # Módulo traceback - Debugging
-├── 🐍 04_logging_module.py      # Módulo logging - Registro de eventos
-├── 🐍 05_json_module.py         # Módulo json - Manejo de JSON
-├── 🐍 06_datetime_module.py     # Módulo datetime - Fechas y tiempo
-├── 🐍 07_re_module.py           # Módulo re - Expresiones regulares
-└── 🐍 08_collections_module.py  # Módulo collections - Estructuras de datos
+├── 📁 completed/               # Módulos finalizados
+│   ├── 🐍 01_sys_module.py
+│   ├── 🐍 02_os_module.py
+│   ├── 🐍 03_traceback_module.py
+│   ├── 🐍 04_logging_module.py
+│   └── 🐍 05_json_module.py
 ```
 
 ## 🚀 Cómo Usar Esta Guía
@@ -31,8 +29,8 @@ python_native_modules/
 # Ejecutar tutorial completo de un módulo
 python 01_sys_module.py
 
-# Ejecutar tutorial de logging
-python 04_logging_module.py
+# Ejecutar tutorial de logging (ruta actual)
+python completed/04_logging_module.py
 ```
 
 ### **Método 2: Estudiar Código Línea por Línea**

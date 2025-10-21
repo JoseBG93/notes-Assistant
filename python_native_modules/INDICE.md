@@ -8,7 +8,7 @@
 
 ---
 
-## 📁 Archivos Creados
+## 📁 Archivos Creados (organizados por estado)
 
 ### 📄 **README.md** (319 líneas)
 **Guía principal de uso**
@@ -20,7 +20,9 @@
 - 🛠️ Herramientas de desarrollo
 - 🎓 Metodología de aprendizaje paso a paso
 
-### 🐍 **01_sys_module.py** (193 líneas)
+### 📁 Carpeta `completed/`
+
+#### 🐍 **01_sys_module.py** (193 líneas)
 **Módulo: `sys` - Información del sistema**
 - ✅ Información de versión y plataforma
 - ✅ Manipulación de `sys.path` (como en `run.py`)
@@ -29,7 +31,7 @@
 - ✅ Control del programa con `sys.exit()`
 - ✅ Casos de uso comunes en proyectos reales
 
-### 🐍 **02_os_module.py** (297 líneas)
+#### 🐍 **02_os_module.py** (297 líneas)
 **Módulo: `os` - Sistema operativo**
 - ✅ Navegación del sistema de archivos
 - ✅ Manipulación de rutas con `os.path`
@@ -38,7 +40,7 @@
 - ✅ Permisos y metadatos de archivos
 - ✅ Ejemplo práctico: Organizador de archivos
 
-### 🐍 **03_traceback_module.py** (345 líneas)
+#### 🐍 **03_traceback_module.py** (345 líneas)
 **Módulo: `traceback` - Debugging**
 - ✅ Traceback básico con `format_exc()`
 - ✅ Análisis detallado de errores
@@ -47,7 +49,7 @@
 - ✅ Stack trace sin errores
 - ✅ Herramientas de debugging profesional
 
-### 🐍 **04_logging_module.py** (495 líneas)
+#### 🐍 **04_logging_module.py** (495 líneas)
 **Módulo: `logging` - Registro de eventos**
 - ✅ Configuración básica y avanzada
 - ✅ Logging a archivos múltiples
@@ -56,7 +58,7 @@
 - ✅ Logging rotativo (por tamaño y tiempo)
 - ✅ Sistema completo de logging para aplicaciones
 
-### 🐍 **05_json_module.py** (568 líneas)
+#### 🐍 **05_json_module.py** (568 líneas)
 **Módulo: `json` - Manejo de JSON**
 - ✅ Serialización y deserialización básica
 - ✅ Lectura y escritura de archivos JSON
